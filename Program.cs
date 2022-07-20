@@ -22,8 +22,11 @@ namespace HW_2._1
                 Console.WriteLine("введите число");
                 int a = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("введите число 2");
+            int b = int.Parse(Console.ReadLine());
+
             Console.WriteLine(Value(a));
-                Console.ReadKey();  
+            Console.ReadKey();  
         }
     }
 }
